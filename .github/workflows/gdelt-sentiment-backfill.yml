@@ -25,7 +25,7 @@ jobs:
       - name: Run backfill (time-boxed)
         env:
           MAX_RUNTIME_MINUTES: "330"
-        run: python -m preprocessing.build_news_sentiment 20160930 20260720
+        run: python -u -m preprocessing.build_news_sentiment 20160930 20260720
 
       - name: Commit and push progress
         run: |
