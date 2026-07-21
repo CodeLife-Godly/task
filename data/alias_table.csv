@@ -1,0 +1,196 @@
+ticker,long_name,short_name,sector,short_alias
+RELIANCE.NS,Reliance Industries Limited,RELIANCE INDUSTRIES LTD,Energy,Reliance Industries
+TCS.NS,Tata Consultancy Services Limited,TATA CONSULTANCY SERV LT,Technology,Tata Consultancy Services
+HDFCBANK.NS,HDFC Bank Limited,HDFC BANK LTD,Financial Services,HDFC Bank
+BHARTIARTL.NS,Bharti Airtel Limited,BHARTI AIRTEL LIMITED,Communication Services,Bharti Airtel
+ICICIBANK.NS,ICICI Bank Limited,ICICI BANK LTD.,Financial Services,ICICI Bank
+INFY.NS,Infosys Limited,INFOSYS LIMITED,Technology,Infosys
+HINDUNILVR.NS,Hindustan Unilever Limited,HINDUSTAN UNILEVER LTD.,Consumer Defensive,Hindustan Unilever
+ITC.NS,ITC Limited,ITC LTD,Consumer Defensive,
+SBIN.NS,State Bank of India,STATE BANK OF INDIA,Financial Services,State Bank of India
+LTM.NS,LTM Limited,LTM LIMITED,Technology,LTIMindtree
+LICI.NS,Life Insurance Corporation of India,LIFE INSURA CORP OF INDIA,Financial Services,Life Insurance Corporation of India
+HCLTECH.NS,HCL Technologies Limited,HCL TECHNOLOGIES LTD,Technology,HCL Technologies
+BAJAJFINSV.NS,Bajaj Finserv Ltd.,BAJAJ FINSERV LTD.,Financial Services,Bajaj Finserv
+BAJFINANCE.NS,Bajaj Finance Limited,BAJAJ FINANCE LIMITED,Financial Services,Bajaj Finance
+AXISBANK.NS,Axis Bank Limited,AXIS BANK LIMITED,Financial Services,Axis Bank
+MARUTI.NS,Maruti Suzuki India Limited,MARUTI SUZUKI INDIA LTD.,Consumer Cyclical,Maruti Suzuki India
+SUNPHARMA.NS,Sun Pharmaceutical Industries Limited,SUN PHARMACEUTICAL IND L,Healthcare,Sun Pharmaceutical Industries
+KOTAKBANK.NS,Kotak Mahindra Bank Limited,KOTAK MAHINDRA BANK LTD,Financial Services,Kotak Mahindra Bank
+LT.NS,Larsen & Toubro Limited,LARSEN & TOUBRO LTD.,Industrials,Larsen & Toubro
+ULTRACEMCO.NS,UltraTech Cement Limited,ULTRATECH CEMENT LIMITED,Basic Materials,UltraTech Cement
+NTPC.NS,NTPC Limited,NTPC LTD,Utilities,NTPC
+TITAN.NS,Titan Company Limited,TITAN COMPANY LIMITED,Consumer Cyclical,Titan
+DMART.NS,Avenue Supermarts Limited,AVENUE SUPERMARTS LIMITED,Consumer Defensive,Avenue Supermarts
+COALINDIA.NS,Coal India Limited,COAL INDIA LTD,Energy,Coal India
+TATASTEEL.NS,Tata Steel Limited,TATA STEEL LIMITED,Basic Materials,Tata Steel
+ADANIENT.NS,Adani Enterprises Limited,ADANI ENTERPRISES LIMITED,Energy,Adani Enterprises
+ADANIPORTS.NS,Adani Ports and Special Economic Zone Limited,ADANI PORT & SEZ LTD,Industrials,Adani Ports and Special Economic Zone
+ADANIGREEN.NS,Adani Green Energy Limited,ADANI GREEN ENERGY LTD,Utilities,Adani Green Energy
+ADANIENSOL.NS,Adani Energy Solutions Limited,ADANI ENERGY SOLUTION LTD,Utilities,Adani Energy Solutions
+HAL.NS,Hindustan Aeronautics Limited,HINDUSTAN AERONAUTICS LTD,Industrials,
+BEL.NS,Bharat Electronics Limited,BHARAT ELECTRONICS LTD,Industrials,Bharat Electronics
+POWERGRID.NS,Power Grid Corporation of India Limited,POWER GRID CORP. LTD.,Utilities,Power Grid Corporation of India
+M&M.NS,Mahindra & Mahindra Limited,MAHINDRA & MAHINDRA LTD,Consumer Cyclical,Mahindra & Mahindra
+JSWSTEEL.NS,JSW Steel Limited,JSW STEEL LIMITED,Basic Materials,JSW Steel
+ONGC.NS,Oil and Natural Gas Corporation Limited,OIL AND NATURAL GAS CORP.,Energy,Oil and Natural Gas Corporation
+IOC.NS,Indian Oil Corporation Limited,INDIAN OIL CORP LTD,Energy,Indian Oil Corporation
+BPCL.NS,Bharat Petroleum Corporation Limited,BHARAT PETROLEUM CORP  LT,Energy,Bharat Petroleum Corporation
+GAIL.NS,GAIL (India) Limited,GAIL (INDIA) LTD,Utilities,GAIL (India)
+HINDPETRO.NS,Hindustan Petroleum Corporation Limited,HINDUSTAN PETROLEUM CORP,Energy,Hindustan Petroleum Corporation
+PFC.NS,Power Finance Corporation Limited,POWER FIN CORP LTD.,Financial Services,Power Finance Corporation
+RECLTD.NS,REC Limited,REC LIMITED,Financial Services,REC
+VEDL.NS,Vedanta Limited,VEDANTA LIMITED,Basic Materials,Vedanta
+HINDALCO.NS,Hindalco Industries Limited,HINDALCO  INDUSTRIES  LTD,Basic Materials,Hindalco Industries
+TRENT.NS,Trent Limited,TRENT LTD,Consumer Cyclical,Trent
+ETERNAL.NS,Eternal Limited,ETERNAL LIMITED,Consumer Cyclical,Eternal
+DLF.NS,DLF Limited,DLF LIMITED,Real Estate,DLF
+VBL.NS,Varun Beverages Limited,VARUN BEVERAGES LIMITED,Consumer Defensive,Varun Beverages
+NESTLEIND.NS,Nestlé India Limited,NESTLE INDIA LIMITED,Consumer Defensive,Nestlé India
+BRITANNIA.NS,Britannia Industries Limited,BRITANNIA INDUSTRIES LTD,Consumer Defensive,Britannia Industries
+CIPLA.NS,Cipla Limited,CIPLA LTD,Healthcare,Cipla
+DRREDDY.NS,Dr. Reddy's Laboratories Limited,DR. REDDY S LABORATORIES,Healthcare,Dr. Reddy's Laboratories
+APOLLOHOSP.NS,Apollo Hospitals Enterprise Limited,APOLLO HOSPITALS ENTER. L,Healthcare,Apollo Hospitals Enterprise
+DIVISLAB.NS,Divi's Laboratories Limited,DIVI S LABORATORIES LTD,Healthcare,Divi's Laboratories
+CHOLAFIN.NS,Cholamandalam Investment and Finance Company Limited,CHOLAMANDALAM IN & FIN CO,Financial Services,Cholamandalam Investment and Finance
+SHRIRAMFIN.NS,Shriram Finance Limited,SHRIRAM FINANCE LIMITED,Financial Services,Shriram Finance
+BAJAJ-AUTO.NS,Bajaj Auto Limited,BAJAJ AUTO LIMITED,Consumer Cyclical,Bajaj Auto
+EICHERMOT.NS,Eicher Motors Limited,EICHER MOTORS LTD,Consumer Cyclical,Eicher Motors
+HEROMOTOCO.NS,Hero MotoCorp Limited,HERO MOTOCORP LIMITED,Consumer Cyclical,Hero MotoCorp
+TVSMOTOR.NS,TVS Motor Company Limited,TVS MOTOR COMPANY  LTD,Consumer Cyclical,TVS Motor
+SIEMENS.NS,Siemens Limited,SIEMENS LTD,Industrials,Siemens
+ABB.NS,ABB India Limited,ABB INDIA LIMITED,Industrials,ABB India
+CUMMINSIND.NS,Cummins India Limited,CUMMINS INDIA LTD,Industrials,Cummins India
+HINDZINC.NS,Hindustan Zinc Limited,HINDUSTAN ZINC LIMITED,Basic Materials,Hindustan Zinc
+GRASIM.NS,Grasim Industries Limited,GRASIM INDUSTRIES LTD,Basic Materials,Grasim Industries
+PIDILITIND.NS,Pidilite Industries Limited,PIDILITE INDUSTRIES LTD,Basic Materials,Pidilite Industries
+AMBUJACEM.NS,Ambuja Cements Limited,AMBUJA CEMENTS LTD,Basic Materials,Ambuja Cements
+SHREECEM.NS,Shree Cement Limited,SHREE CEMENT LIMITED,Basic Materials,Shree Cement
+ACC.NS,ACC Limited,ACC LIMITED,Basic Materials,ACC
+BERGEPAINT.NS,Berger Paints India Limited,BERGER PAINTS (I) LTD,Basic Materials,Berger Paints India
+ASIANPAINT.NS,Asian Paints Limited,ASIAN PAINTS LIMITED,Basic Materials,Asian Paints
+COLPAL.NS,Colgate-Palmolive (India) Limited,COLGATE PALMOLIVE LTD.,Consumer Defensive,Colgate-Palmolive (India)
+PGHH.NS,Procter & Gamble Hygiene and Health Care Limited,P&G HYGIENE & HEALTH CARE,Consumer Defensive,Procter & Gamble Hygiene and Health Care
+GODREJCP.NS,Godrej Consumer Products Limited,GODREJ CONSUMER PRODUCTS,Consumer Defensive,Godrej Consumer Products
+MARICO.NS,Marico Limited,MARICO LIMITED,Consumer Defensive,Marico
+DABUR.NS,Dabur India Limited,DABUR INDIA LTD,Consumer Defensive,Dabur India
+TATACONSUM.NS,Tata Consumer Products Limited,TATA CONSUMER PRODUCT LTD,Consumer Defensive,Tata Consumer Products
+UNITDSPR.NS,United Spirits Limited,UNITED SPIRITS LIMITED,Consumer Defensive,United Spirits
+IRCTC.NS,Indian Railway Catering & Tourism Corporation Limited,INDIAN RAIL TOUR CORP LTD,Consumer Cyclical,Indian Railway Catering & Tourism Corporation
+PAGEIND.NS,Page Industries Limited,PAGE INDUSTRIES LTD,Consumer Cyclical,Page Industries
+MUTHOOTFIN.NS,Muthoot Finance Limited,MUTHOOT FINANCE LIMITED,Financial Services,Muthoot Finance
+SRF.NS,SRF Limited,SRF LTD,Industrials,SRF
+POLYCAB.NS,Polycab India Limited,POLYCAB INDIA LIMITED,Industrials,Polycab India
+KEI.NS,KEI Industries Limited,KEI INDUSTRIES LTD.,Industrials,KEI Industries
+HAVELLS.NS,Havells India Limited,HAVELLS INDIA LIMITED,Industrials,Havells India
+DIXON.NS,Dixon Technologies (India) Limited,DIXON TECHNO (INDIA) LTD,Technology,Dixon Technologies (India)
+PERSISTENT.NS,Persistent Systems Limited,PERSISTENT SYSTEMS LTD,Technology,Persistent Systems
+COFORGE.NS,Coforge Limited,COFORGE LIMITED,Technology,Coforge
+MPHASIS.NS,Mphasis Limited,MPHASIS LIMITED,Technology,Mphasis
+WIPRO.NS,Wipro Limited,WIPRO LTD,Technology,Wipro
+TECHM.NS,Tech Mahindra Limited,TECH MAHINDRA LIMITED,Technology,Tech Mahindra
+OBEROIRLTY.NS,Oberoi Realty Limited,OBEROI REALTY LIMITED,Real Estate,Oberoi Realty
+LODHA.NS,Lodha Developers Limited,LODHA DEVELOPERS LIMITED,Real Estate,Lodha Developers
+PHOENIXLTD.NS,The Phoenix Mills Limited,THE PHOENIX MILLS LTD,Real Estate,Phoenix Mills
+INDHOTEL.NS,The Indian Hotels Company Limited,THE INDIAN HOTELS CO. LTD,Consumer Cyclical,Indian Hotels
+MAXHEALTH.NS,Max Healthcare Institute Limited,MAX HEALTHCARE INS LTD,Healthcare,Max Healthcare Institute
+LUPIN.NS,Lupin Limited,LUPIN LIMITED,Healthcare,Lupin
+AUROPHARMA.NS,Aurobindo Pharma Limited,AUROBINDO PHARMA LTD,Healthcare,Aurobindo Pharma
+ALKEM.NS,Alkem Laboratories Limited,ALKEM LABORATORIES LTD.,Healthcare,Alkem Laboratories
+TATAPOWER.NS,The Tata Power Company Limited,TATA POWER CO LTD,Utilities,Tata Power
+AAPL,Apple Inc.,Apple Inc.,Technology,Apple
+ABNB,"Airbnb, Inc.","Airbnb, Inc.",Consumer Cyclical,Airbnb
+ADBE,Adobe Inc.,Adobe Inc.,Technology,Adobe
+ADI,"Analog Devices, Inc.","Analog Devices, Inc.",Technology,Analog Devices
+ADP,"Automatic Data Processing, Inc.","Automatic Data Processing, Inc.",Technology,Automatic Data Processing
+ADSK,"Autodesk, Inc.","Autodesk, Inc.",Technology,Autodesk
+AEP,"American Electric Power Company, Inc.",American Electric Power Company,Utilities,American Electric Power 
+AMAT,"Applied Materials, Inc.","Applied Materials, Inc.",Technology,Applied Materials
+AMD,"Advanced Micro Devices, Inc.","Advanced Micro Devices, Inc.",Technology,Advanced Micro Devices
+AMGN,Amgen Inc.,Amgen Inc.,Healthcare,Amgen
+AMZN,"Amazon.com, Inc.","Amazon.com, Inc.",Consumer Cyclical,Amazon.com
+APP,AppLovin Corporation,Applovin Corporation,Communication Services,AppLovin
+ARM,Arm Holdings plc,Arm Holdings plc,Technology,Arm Holdings
+ASML,ASML Holding N.V.,ASML Holding N.V. - New York Re,Technology,ASML
+AVGO,Broadcom Inc.,Broadcom Inc.,Technology,Broadcom
+AZN,AstraZeneca PLC,AstraZeneca PLC,Healthcare,AstraZeneca
+BLD,TopBuild Corp.,TopBuild Corp.,Industrials,TopBuild
+BIIB,Biogen Inc.,Biogen Inc.,Healthcare,Biogen
+BKNG,Booking Holdings Inc.,Booking Holdings Inc. Common St,Consumer Cyclical,Booking Holdings
+BKR,Baker Hughes Company,Baker Hughes Company,Energy,Baker Hughes
+CDNS,"Cadence Design Systems, Inc.","Cadence Design Systems, Inc.",Technology,Cadence Design Systems
+CDW,CDW Corporation,CDW Corporation,Technology,CDW
+CEG,Constellation Energy Corporation,Constellation Energy Corporatio,Utilities,Constellation Energy
+CHTR,"Charter Communications, Inc.","Charter Communications, Inc.",Communication Services,Charter Communications
+CPRT,"Copart, Inc.","Copart, Inc.",Industrials,Copart
+CRWD,"CrowdStrike Holdings, Inc.","CrowdStrike Holdings, Inc.",Technology,CrowdStrike Holdings
+CSCO,"Cisco Systems, Inc.","Cisco Systems, Inc.",Technology,Cisco Systems
+CSX,CSX Corporation,CSX Corporation,Industrials,CSX
+CTAS,Cintas Corporation,Cintas Corporation,Industrials,Cintas
+CTSH,Cognizant Technology Solutions Corporation,Cognizant Technology Solutions ,Technology,Cognizant Technology Solutions
+DASH,"DoorDash, Inc.","DoorDash, Inc.",Consumer Cyclical,DoorDash
+DDOG,"Datadog, Inc.","Datadog, Inc.",Technology,Datadog
+DXCM,"DexCom, Inc.","DexCom, Inc.",Healthcare,DexCom
+EA,Electronic Arts Inc.,Electronic Arts Inc.,Communication Services,Electronic Arts
+EXC,Exelon Corporation,Exelon Corporation,Utilities,Exelon
+FAST,Fastenal Company,Fastenal Company,Industrials,Fastenal
+FTV,Fortive Corporation,Fortive Corporation,Technology,Fortive
+GEHC,GE HealthCare Technologies Inc.,GE HealthCare Technologies Inc.,Healthcare,GE HealthCare Technologies
+GILD,"Gilead Sciences, Inc.","Gilead Sciences, Inc.",Healthcare,Gilead Sciences
+GOOG,Alphabet Inc.,Alphabet Inc.,Communication Services,Alphabet
+GOOGL,Alphabet Inc.,Alphabet Inc.,Communication Services,Alphabet
+HON,Honeywell International Inc.,Honeywell International Inc.,Industrials,Honeywell International
+IDXX,"IDEXX Laboratories, Inc.","IDEXX Laboratories, Inc.",Healthcare,IDEXX Laboratories
+ILMN,"Illumina, Inc.","Illumina, Inc.",Healthcare,Illumina
+INTC,Intel Corporation,Intel Corporation,Technology,Intel
+INTU,Intuit Inc.,Intuit Inc.,Technology,Intuit
+ISRG,"Intuitive Surgical, Inc.","Intuitive Surgical, Inc.",Healthcare,Intuitive Surgical
+KDP,Keurig Dr Pepper Inc.,Keurig Dr Pepper Inc.,Consumer Defensive,Keurig Dr Pepper
+KHC,The Kraft Heinz Company,The Kraft Heinz Company,Consumer Defensive,The Kraft Heinz
+KLAC,KLA Corporation,KLA Corporation,Technology,KLA
+LRCX,Lam Research Corporation,Lam Research Corporation,Technology,Lam Research
+LULU,lululemon athletica inc.,lululemon athletica inc.,Consumer Cyclical,lululemon athletica
+MAR,"Marriott International, Inc.",Marriott International,Consumer Cyclical,Marriott International
+MCHP,Microchip Technology Incorporated,Microchip Technology Incorporat,Technology,Microchip Technology
+MDLZ,"Mondelez International, Inc.","Mondelez International, Inc.",Consumer Defensive,Mondelez International
+MELI,"MercadoLibre, Inc.","MercadoLibre, Inc.",Consumer Cyclical,MercadoLibre
+META,"Meta Platforms, Inc.","Meta Platforms, Inc.",Communication Services,Meta Platforms
+MNST,Monster Beverage Corporation,Monster Beverage Corporation,Consumer Defensive,Monster Beverage
+MPWR,"Monolithic Power Systems, Inc.","Monolithic Power Systems, Inc.",Technology,Monolithic Power Systems
+MRVL,"Marvell Technology, Inc.","Marvell Technology, Inc.",Technology,Marvell Technology
+MSFT,Microsoft Corporation,Microsoft Corporation,Technology,Microsoft
+MSTR,Strategy Inc,Strategy Inc,Technology,
+MU,"Micron Technology, Inc.","Micron Technology, Inc.",Technology,Micron Technology
+NFLX,"Netflix, Inc.","Netflix, Inc.",Communication Services,Netflix
+NVDA,NVIDIA Corporation,NVIDIA Corporation,Technology,NVIDIA
+NXPI,NXP Semiconductors N.V.,NXP Semiconductors N.V.,Technology,NXP Semiconductors
+ODFL,"Old Dominion Freight Line, Inc.","Old Dominion Freight Line, Inc.",Industrials,Old Dominion Freight Line
+ORLY,"O'Reilly Automotive, Inc.","O'Reilly Automotive, Inc.",Consumer Cyclical,O'Reilly Automotive
+PANW,"Palo Alto Networks, Inc.","Palo Alto Networks, Inc.",Technology,Palo Alto Networks
+PAYX,"Paychex, Inc.","Paychex, Inc.",Technology,Paychex
+PCAR,PACCAR Inc,PACCAR Inc.,Industrials,PACCAR
+PDD,PDD Holdings Inc.,PDD Holdings Inc.,Consumer Cyclical,PDD Holdings
+PEP,"PepsiCo, Inc.","Pepsico, Inc.",Consumer Defensive,PepsiCo
+PLTR,Palantir Technologies Inc.,Palantir Technologies Inc.,Technology,Palantir Technologies
+PYPL,"PayPal Holdings, Inc.","PayPal Holdings, Inc.",Financial Services,PayPal Holdings
+QCOM,QUALCOMM Incorporated,QUALCOMM Incorporated,Technology,QUALCOMM
+REGN,"Regeneron Pharmaceuticals, Inc.","Regeneron Pharmaceuticals, Inc.",Healthcare,Regeneron Pharmaceuticals
+ROP,"Roper Technologies, Inc.","Roper Technologies, Inc.",Technology,Roper Technologies
+ROST,"Ross Stores, Inc.","Ross Stores, Inc.",Consumer Cyclical,Ross Stores
+SBUX,Starbucks Corporation,Starbucks Corporation,Consumer Cyclical,Starbucks
+SHOP,Shopify Inc.,Shopify Inc.,Technology,Shopify
+SNPS,"Synopsys, Inc.","Synopsys, Inc.",Technology,Synopsys
+STX,Seagate Technology Holdings plc,Seagate Technology Holdings PLC,Technology,Seagate Technology
+TEAM,Atlassian Corporation,Atlassian Corporation,Technology,Atlassian
+TMUS,"T-Mobile US, Inc.","T-Mobile US, Inc.",Communication Services,T-Mobile US
+TRI,Thomson Reuters Corporation,Thomson Reuters Corp,Industrials,Thomson Reuters
+TSLA,"Tesla, Inc.","Tesla, Inc.",Consumer Cyclical,Tesla
+TTWO,"Take-Two Interactive Software, Inc.","Take-Two Interactive Software, ",Communication Services,Take-Two Interactive Software
+TXN,Texas Instruments Incorporated,Texas Instruments Incorporated,Technology,Texas Instruments
+VRSK,"Verisk Analytics, Inc.","Verisk Analytics, Inc.",Industrials,Verisk Analytics
+VRTX,Vertex Pharmaceuticals Incorporated,Vertex Pharmaceuticals Incorpor,Healthcare,Vertex Pharmaceuticals
+WBD,"Warner Bros. Discovery, Inc.","Warner Bros. Discovery, Inc. - ",Communication Services,Warner Bros. Discovery
+WDAY,"Workday, Inc.","Workday, Inc.",Technology,Workday
+WDC,Western Digital Corporation,Western Digital Corporation,Technology,Western Digital
+WEC,"WEC Energy Group, Inc.","WEC Energy Group, Inc.",Utilities,WEC Energy Group
+WMT,Walmart Inc.,Walmart Inc.,Consumer Defensive,Walmart
