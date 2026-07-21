@@ -1,0 +1,40 @@
+name: GDELT Sentiment Backfill
+
+on:
+  # Runs automatically every 6 hours. Because the script is resumable and
+  # self-limits to a safe runtime, each run picks up exactly where the
+  # last one left off.
+  schedule:
+    - cron: "0 */6 * * *"
+  # Lets you trigger a run manually from the Actions tab too.
+  workflow_dispatch:
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350  # stay under GitHub's 360-minute (6h) hard cap
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run backfill (time-boxed)
+        env:
+          MAX_RUNTIME_MINUTES: "330"  # leave headroom under the 350-min job timeout
+        run: python -m preprocessing.build_news_sentiment 20160930 20260720
+
+      - name: Commit and push progress
+        run: |
+          git config user.name "gdelt-backfill-bot"
+          git config user.email "actions@github.com"
+          git add data/datasets/news_sentiment.csv
+          git diff --quiet --cached || git commit -m "Backfill GDELT sentiment progress"
+          git push
