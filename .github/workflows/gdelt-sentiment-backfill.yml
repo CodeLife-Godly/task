@@ -22,15 +22,12 @@ jobs:
       - name: Install dependencies
         run: pip install requests python-dotenv
 
-      - name: Run backfill (time-boxed)
-        env:
-          MAX_RUNTIME_MINUTES: "330"
-        run: python -u -m preprocessing.build_news_sentiment 20160930 20260720
-
-      - name: Commit and push progress
+      - name: Configure git
         run: |
           git config user.name "gdelt-backfill-bot"
           git config user.email "actions@github.com"
-          git add data/datasets/news_sentiment.csv
-          git diff --quiet --cached || git commit -m "Backfill GDELT sentiment progress"
-          git push
+
+      - name: Run backfill (time-boxed, commits periodically)
+        env:
+          MAX_RUNTIME_MINUTES: "300"
+        run: python -u -m preprocessing.build_news_sentiment 20160930 20260720
