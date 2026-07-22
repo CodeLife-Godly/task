@@ -15,10 +15,12 @@ Requires: pip install requests
 
 import csv
 import io
+import os
+import subprocess
 import sys
 import time
 import zipfile
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 sys.path.append(str(Path(__file__).resolve().parent.parent))
@@ -38,8 +40,8 @@ GKG_COLUMNS = [
 
 OUTPUT_COLUMNS = ["date", "ticker", "article_count", "avg_tone_mean", "avg_tone_std"]
 
-REQUEST_TIMEOUT = 60
-RETRY_ATTEMPTS = 3
+REQUEST_TIMEOUT = 30
+RETRY_ATTEMPTS = 2
 SLEEP_BETWEEN_DAYS = 1.0  # seconds, be polite to GDELT's server
 
 
@@ -132,6 +134,37 @@ def append_rows(output_path: Path, rows: list):
         writer.writerows(rows)
 
 
+def commit_progress(output_path: Path, repo_root: Path):
+    """
+    Commits and pushes just the output file. Best-effort: prints the
+    outcome but never raises, so a transient git/network failure here
+    doesn't kill the whole backfill run — the next periodic commit or
+    the run's final commit will pick it up.
+    """
+    try:
+        rel_path = output_path.relative_to(repo_root)
+        subprocess.run(["git", "add", str(rel_path)], cwd=repo_root, check=True)
+
+        diff = subprocess.run(
+            ["git", "diff", "--quiet", "--cached"], cwd=repo_root
+        )
+        if diff.returncode == 0:
+            print("  [commit] no changes to commit.")
+            return
+
+        subprocess.run(
+            ["git", "commit", "-m", "Backfill GDELT sentiment progress (periodic)"],
+            cwd=repo_root, check=True,
+        )
+        subprocess.run(
+            ["git", "pull", "--rebase", "origin", "main"], cwd=repo_root, check=True,
+        )
+        subprocess.run(["git", "push", "origin", "main"], cwd=repo_root, check=True)
+        print("  [commit] pushed successfully.")
+    except subprocess.CalledProcessError as e:
+        print(f"  [commit] FAILED (non-fatal, will retry next checkpoint): {e}")
+
+
 def main():
     if len(sys.argv) != 3:
         print("Usage: python -m preprocessing.build_news_sentiment <START_YYYYMMDD> <END_YYYYMMDD>")
@@ -139,6 +172,15 @@ def main():
 
     start = date(int(sys.argv[1][:4]), int(sys.argv[1][4:6]), int(sys.argv[1][6:8]))
     end = date(int(sys.argv[2][:4]), int(sys.argv[2][4:6]), int(sys.argv[2][6:8]))
+
+    # Optional time budget (minutes) for CI environments with a hard runtime
+    # limit (e.g. GitHub Actions' 6-hour job cap). Exits cleanly BETWEEN
+    # days, never mid-download, so nothing is left half-written.
+    max_runtime_minutes = os.environ.get("MAX_RUNTIME_MINUTES")
+    deadline = None
+    if max_runtime_minutes:
+        deadline = datetime.now().timestamp() + float(max_runtime_minutes) * 60
+        print(f"Time budget: {max_runtime_minutes} minutes.")
 
     alias_path = config.DATA_DIR / "alias_table.csv"
     aliases = load_aliases(alias_path)
@@ -150,8 +192,16 @@ def main():
     already_done = get_already_processed_dates(output_path)
     print(f"{len(already_done)} dates already processed — will skip those.")
 
+    repo_root = Path(__file__).resolve().parent.parent
+    COMMIT_EVERY_N_DAYS = 15  # push progress periodically, not just at the very end
+    days_since_commit = 0
+
     total_days = (end - start).days + 1
     for i, d in enumerate(daterange(start, end), 1):
+        if deadline and datetime.now().timestamp() >= deadline:
+            print(f"\nTime budget reached — stopping cleanly before starting a new day.")
+            break
+
         date_str = d.strftime("%Y%m%d")
 
         if date_str in already_done:
@@ -167,9 +217,18 @@ def main():
         print(f"  -> {len(rows)} (ticker) rows written.")
 
         del raw_text
+        days_since_commit += 1
+
+        if days_since_commit >= COMMIT_EVERY_N_DAYS:
+            print(f"  [checkpoint] committing progress after {COMMIT_EVERY_N_DAYS} days...")
+            commit_progress(output_path, repo_root)
+            days_since_commit = 0
+
         time.sleep(SLEEP_BETWEEN_DAYS)
 
-    print(f"\nDone. Output at {output_path}")
+    print("\nFinal commit before exiting...")
+    commit_progress(output_path, repo_root)
+    print(f"\nDone (or paused). Output at {output_path}")
 
 
 if __name__ == "__main__":
