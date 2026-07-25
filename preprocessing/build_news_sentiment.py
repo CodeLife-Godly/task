@@ -24,7 +24,7 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 
 sys.path.append(str(Path(__file__).resolve().parent.parent))
-
+csv.field_size_limit(min(sys.maxsize, 2**31 - 1))
 import requests
 
 from database.config import config
